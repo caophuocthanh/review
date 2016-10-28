@@ -2,9 +2,10 @@
 # Review iOS Development 
 
 1. Method Swizzling (runtime.h) - Can thiêp, thay thế 1 hàm bất kỳ, hooking 
+  - http://nshipster.com/method-swizzling/
+  - https://blog.newrelic.com/2014/04/16/right-way-to-swizzle/
 
-
-2. HEAP and STACK  (Quảng lý vùng nhớ HEAP và STACK trong iOS nhằm tối ưu RAM)
+2. HEAP and STACK  (Quản lý vùng nhớ HEAP và STACK trong iOS nhằm tối ưu RAM)
 
 
 3. NSMutable (Sự khác nhau)
