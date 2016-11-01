@@ -81,18 +81,11 @@ https://developer.apple.com/library/content/documentation/General/Conceptual/Dev
 
 25. Atomic and Non-Atomic
 	
-Atomic
+Atomic: is the default behavior will ensure the present process is completed by the CPU, before another process accesses the variable is not fast, as it ensures the process is completed entirely
 
-is the default behavior
-will ensure the present process is completed by the CPU, before another process accesses the variable
-is not fast, as it ensures the process is completed entirely
+Non-Atomic: is NOT the default behavior faster (for synthesized code, that is, for variables created using @property and @synthesize) not thread-safe may result in unexpected behavior, when two different process access the same variable at the same time
 
-Non-Atomic
-
-is NOT the default behavior
-faster (for synthesized code, that is, for variables created using @property and @synthesize)
-not thread-safe
-may result in unexpected behavior, when two different process access the same variable at the same time
+http://stackoverflow.com/questions/588866/whats-the-difference-between-the-atomic-and-nonatomic-attributes
 
 26. ....
 
