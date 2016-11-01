@@ -73,6 +73,7 @@
 
 
 22. Weak and Strong, Retain, Assign
+http://stackoverflow.com/questions/8927727/objective-c-arc-strong-vs-retain-and-weak-vs-assign
 
 23. Life circle
 
