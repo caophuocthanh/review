@@ -79,5 +79,20 @@
 24. Deep copy anf Shallow copy 
 https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/ObjectCopying.html
 
-25. ...
+25. Atomic and Non-Atomic
+	
+Atomic
+
+is the default behavior
+will ensure the present process is completed by the CPU, before another process accesses the variable
+is not fast, as it ensures the process is completed entirely
+
+Non-Atomic
+
+is NOT the default behavior
+faster (for synthesized code, that is, for variables created using @property and @synthesize)
+not thread-safe
+may result in unexpected behavior, when two different process access the same variable at the same time
+
+26. ....
 
