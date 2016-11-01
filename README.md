@@ -72,5 +72,12 @@
 21. Basic (Search, Sort,...)
 
 
-22. Updating....
+22. Weak and Strong, Retain, Assign
+
+23. Life circle
+
+24. Deep copy anf Shallow copy 
+https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/ObjectCopying.html
+
+25. ...
 
